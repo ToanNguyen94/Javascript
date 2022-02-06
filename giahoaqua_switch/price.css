@@ -1,0 +1,27 @@
+select:required:invalid{
+    color: gray;
+}
+option [value=""][disabled] {
+    display:none;
+}
+option{
+    color: black;
+}
+select{
+    font-size: 20px;
+    padding: 20px 30px 20px 20px;
+    background-color: #EDF0F1;
+    border-radius: 5px;
+}
+button{
+    margin-top: 20px;
+    padding: 20px;
+    background: green;
+    border-radius: 6px;
+    color: white;
+}
+#result{
+    margin-top: 20px;
+    font-size: 35px;
+    color: rgb(255, 51, 0);
+}
